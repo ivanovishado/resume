@@ -20,6 +20,16 @@
 % A4 paper size by default, use 'letterpaper' for US letter
 \documentclass[11pt, a4paper]{awesome-cv}
 
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+
 % Configure page margins with geometry
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
 
@@ -57,7 +67,7 @@
 \position{Software Engineer}
 % \address{42-8, Bangbae-ro 15-gil, Seocho-gu, Seoul, 00681, Rep. of KOREA}
 
-\mobile{+52 (133) 1234-0239}
+% \mobile{+52 (133) 1234-0239}
 \email{galavizivan23@gmail.com}
 % \homepage{www.posquit0.com}
 \github{ivanovishado}
@@ -73,7 +83,7 @@
 % \googlescholar{googlescholar-id}{}
 % \extrainfo{extra informations}
 
-\quote{"A human being passionate about developing the next-gen tools that will enhance human-computer interactions."}
+\quote{"A passionate Software Engineer that loves to go above and beyond."}
 
 
 %-------------------------------------------------------------------------------
@@ -96,10 +106,10 @@
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
 \input{cv/experience.tex}
-\input{cv/skills.tex}
+% \input{cv/skills.tex}
 \input{cv/education.tex}
 
-\pagebreak
+% \pagebreak
 
 \input{cv/extracurricular.tex}
 \input{cv/honors.tex}
